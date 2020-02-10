@@ -495,4 +495,23 @@
             </reporting>
         </profile>
     </profiles>
+    
+    
+<distributionManagement>
+  <repository>
+    <id>releases</id>
+    <name>Argus Maven 2 Release</name>
+    <url>http://dev-ap-6500lg-01:8080/nexus/content/repositories/releases/</url>
+  </repository>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <!-- CHANGE HERE by your team nexus server -->
+     <name>Argus Maven 2 Snapshot</name>
+    <url>http://dev-ap-6500lg-01:8080/nexus/content/repositories/snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
+    
+    
 </project>
+
+
